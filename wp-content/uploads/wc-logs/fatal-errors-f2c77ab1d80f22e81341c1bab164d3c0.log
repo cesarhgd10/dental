@@ -1,0 +1,235 @@
+2018-01-17T10:11:55+00:00 CRITICAL Uncaught Error: Call to undefined function ip_write_log() in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:657
+Stack trace:
+#0 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php(281): WC_Cielo_Subscriptions_Gateway->create_cielo_sale_request(Object(WC_Order), Array)
+#1 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(439): WC_Cielo_Subscriptions_Gateway->process_subscriptions_payment(Object(WC_Order))
+#2 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Cielo_Subscriptions_Helper->process_payment(34)
+#3 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(34, 'cielo_subscript...')
+#4 /home/resultate/sites/dental/wp-content/plugins/woocommerce/i
+
+2018-01-17T10:12:09+00:00 CRITICAL Uncaught Error: Call to undefined function ip_write_log() in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:657
+Stack trace:
+#0 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php(281): WC_Cielo_Subscriptions_Gateway->create_cielo_sale_request(Object(WC_Order), Array)
+#1 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(439): WC_Cielo_Subscriptions_Gateway->process_subscriptions_payment(Object(WC_Order))
+#2 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Cielo_Subscriptions_Helper->process_payment(34)
+#3 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(34, 'cielo_subscript...')
+#4 /home/resultate/sites/dental/wp-content/plugins/woocommerce/i
+
+2018-01-17T11:59:30+00:00 CRITICAL Uncaught Error: Call to undefined function ip_write_log() in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:657
+Stack trace:
+#0 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php(281): WC_Cielo_Subscriptions_Gateway->create_cielo_sale_request(Object(WC_Order), Array)
+#1 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(439): WC_Cielo_Subscriptions_Gateway->process_subscriptions_payment(Object(WC_Order))
+#2 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Cielo_Subscriptions_Helper->process_payment(34)
+#3 /home/resultate/sites/dental/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(34, 'cielo_subscript...')
+#4 /home/resultate/sites/dental/wp-content/plugins/woocommerce/i
+
+2018-01-17T12:27:38+00:00 CRITICAL Uncaught Error: Call to undefined function Cielo\API30\Ecommerce\Request\ip_write_log() in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/vendor/developercielo/api-3.0-php/src/Cielo/API30/Ecommerce/Request/AbstractRequest.php:78
+Stack trace:
+#0 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/vendor/developercielo/api-3.0-php/src/Cielo/API30/Ecommerce/Request/CreateSaleRequest.php(41): Cielo\API30\Ecommerce\Request\AbstractRequest->sendRequest('POST', 'https://apisand...', Object(Cielo\API30\Ecommerce\Sale))
+#1 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/vendor/developercielo/api-3.0-php/src/Cielo/API30/Ecommerce/CieloEcommerce.php(60): Cielo\API30\Ecommerce\Request\CreateSaleRequest->execute(Object(Cielo\API30\Ecommerce\Sale))
+#2 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php(291): Cielo\API30\Ecommerce\CieloEcommerce->createSal
+
+2018-01-17T12:33:31+00:00 CRITICAL Uncaught Error: Call to a member function add() on null in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:356
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Gateway->return_handler(Object(WC_Order))
+#1 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(465): do_action('woocommerce_cie...', Object(WC_Order))
+#4 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Helper->check_return('')
+#5 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 
+
+2018-01-17T13:04:23+00:00 CRITICAL Uncaught Error: Call to a member function add() on null in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:356
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Gateway->return_handler(Object(WC_Order))
+#1 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(465): do_action('woocommerce_cie...', Object(WC_Order))
+#4 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Helper->check_return('')
+#5 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 
+
+2018-01-17T13:07:35+00:00 CRITICAL Uncaught Error: Call to a member function add() on null in /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-gateway.php:356
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Gateway->return_handler(Object(WC_Order))
+#1 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/resultate/sites/dental/wp-content/plugins/cielo-woocommerce-subscriptions/includes/class-wc-cielo-subscriptions-helper.php(465): do_action('woocommerce_cie...', Object(WC_Order))
+#4 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(286): WC_Cielo_Subscriptions_Helper->check_return('')
+#5 /home/resultate/sites/dental/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home/resultate/sites/dental/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 
+
+2018-01-23T10:40:28+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:40:49+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:41:14+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:41:19+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:46:02+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:46:09+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T10:46:10+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/resultate/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:94
+Stack trace:
+#0 /home/resultate/sites/dental/wp-includes/template.php(690): require()
+#1 /home/resultate/sites/dental/wp-includes/template.php(647): load_template('/home/resultate...', false)
+#2 /home/resultate/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/resultate/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/resultate/sites/dental/wp-content/themes/dental/base.php(24): include('/home/resultate...')
+#5 /home/resultate/sites/dental/wp-includes/template-loader.php(74): include('/home/resultate...')
+#6 /home/resultate/sites/dental/wp-blog-header.php(19): require_once('/home/resultate...')
+#7 /home/resultate/sites/dental/index.php(17): require('/home/resultate...')
+#8 /home/resultate/.config/composer/vendor/cpriego/valet-linux/server.php(2
+
+2018-01-23T22:47:38+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/cesar/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:101
+Stack trace:
+#0 /home/cesar/sites/dental/wp-includes/template.php(690): require()
+#1 /home/cesar/sites/dental/wp-includes/template.php(647): load_template('/home/cesar/sit...', false)
+#2 /home/cesar/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/cesar/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/cesar/sites/dental/wp-content/themes/dental/base.php(24): include('/home/cesar/sit...')
+#5 /home/cesar/sites/dental/wp-includes/template-loader.php(74): include('/home/cesar/sit...')
+#6 /home/cesar/sites/dental/wp-blog-header.php(19): require_once('/home/cesar/sit...')
+#7 /home/cesar/sites/dental/index.php(17): require('/home/cesar/sit...')
+#8 /home/cesar/.config/composer/vendor/cpriego/valet-linux/server.php(204): require('/home/cesar/sit...')
+#9 {
+
+2018-01-23T23:06:44+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/cesar/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:101
+Stack trace:
+#0 /home/cesar/sites/dental/wp-includes/template.php(690): require()
+#1 /home/cesar/sites/dental/wp-includes/template.php(647): load_template('/home/cesar/sit...', false)
+#2 /home/cesar/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/cesar/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/cesar/sites/dental/wp-content/themes/dental/base.php(24): include('/home/cesar/sit...')
+#5 /home/cesar/sites/dental/wp-includes/template-loader.php(74): include('/home/cesar/sit...')
+#6 /home/cesar/sites/dental/wp-blog-header.php(19): require_once('/home/cesar/sit...')
+#7 /home/cesar/sites/dental/index.php(17): require('/home/cesar/sit...')
+#8 /home/cesar/.config/composer/vendor/cpriego/valet-linux/server.php(204): require('/home/cesar/sit...')
+#9 {
+
+2018-01-23T23:36:45+00:00 CRITICAL Uncaught Error: Class 'ProductHelper' not found in /home/cesar/sites/dental/wp-content/themes/dental/templates/content-page-ortodontia.php:101
+Stack trace:
+#0 /home/cesar/sites/dental/wp-includes/template.php(690): require()
+#1 /home/cesar/sites/dental/wp-includes/template.php(647): load_template('/home/cesar/sit...', false)
+#2 /home/cesar/sites/dental/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/cesar/sites/dental/wp-content/themes/dental/template-custom.php(10): get_template_part('templates/conte...', 'ortodontia')
+#4 /home/cesar/sites/dental/wp-content/themes/dental/base.php(24): include('/home/cesar/sit...')
+#5 /home/cesar/sites/dental/wp-includes/template-loader.php(74): include('/home/cesar/sit...')
+#6 /home/cesar/sites/dental/wp-blog-header.php(19): require_once('/home/cesar/sit...')
+#7 /home/cesar/sites/dental/index.php(17): require('/home/cesar/sit...')
+#8 /home/cesar/.config/composer/vendor/cpriego/valet-linux/server.php(204): require('/home/cesar/sit...')
+#9 {
+
+2018-01-29T01:38:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_meta_field() in C:\laragon\www\dental\wp-content\themes\dental\templates\partials\content-programa-banner-familiar.php:3
+Stack trace:
+#0 C:\laragon\www\dental\wp-content\themes\dental\templates\content-single-programa.php(25): include()
+#1 C:\laragon\www\dental\wp-includes\template.php(690): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dental\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\dental\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#4 C:\laragon\www\dental\wp-content\themes\dental\single-product.php(17): get_template_part('templates/conte...')
+#5 C:\laragon\www\dental\wp-content\themes\dental\base.php(24): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\dental\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#7 C:\laragon\www\dental\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\dental\index.php(17): require('C:\\lar
+
+2018-02-04T17:42:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\laragon\www\dental\wp-content\themes\dental\templates\partials\content-programa-banner-empresarial.php:14
+Stack trace:
+#0 C:\laragon\www\dental\wp-content\themes\dental\templates\content-single-programa.php(31): include()
+#1 C:\laragon\www\dental\wp-includes\template.php(690): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dental\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\dental\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#4 C:\laragon\www\dental\wp-content\themes\dental\single-product.php(17): get_template_part('templates/conte...')
+#5 C:\laragon\www\dental\wp-content\themes\dental\base.php(24): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\dental\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#7 C:\laragon\www\dental\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\dental\index.php(17): requ
+
+2018-02-04T17:42:47+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\laragon\www\dental\wp-content\themes\dental\templates\partials\content-programa-banner-empresarial.php:14
+Stack trace:
+#0 C:\laragon\www\dental\wp-content\themes\dental\templates\content-single-programa.php(31): include()
+#1 C:\laragon\www\dental\wp-includes\template.php(690): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dental\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\dental\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#4 C:\laragon\www\dental\wp-content\themes\dental\single-product.php(17): get_template_part('templates/conte...')
+#5 C:\laragon\www\dental\wp-content\themes\dental\base.php(24): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\dental\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#7 C:\laragon\www\dental\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\dental\index.php(17): requ
+
+2018-02-04T20:24:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\laragon\www\dental\wp-content\themes\dental\templates\content-page-home.php:7
+Stack trace:
+#0 C:\laragon\www\dental\wp-includes\template.php(690): require()
+#1 C:\laragon\www\dental\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', false)
+#2 C:\laragon\www\dental\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 C:\laragon\www\dental\wp-content\themes\dental\template-custom.php(10): get_template_part('templates/conte...', 'home')
+#4 C:\laragon\www\dental\wp-content\themes\dental\base.php(24): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\dental\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\dental\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\dental\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown
+

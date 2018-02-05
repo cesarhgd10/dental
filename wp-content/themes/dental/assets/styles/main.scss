@@ -1,0 +1,30 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Old styles
+@import "old-layout/global";
+@import "old-layout/header";
+@import "old-layout/home";
+@import "old-layout/ortodontia";
+@import "old-layout/nossas-clinicas";
+@import "old-layout/programas";
+@import "old-layout/be-empresarial";
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "components/checkout-menu";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+@import "layouts/home";

@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/muvasco/API-3.0-PHP.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "developercielo/API-3.0-PHP": "dev-feature/update-recurrent-payment"
+  }
+}

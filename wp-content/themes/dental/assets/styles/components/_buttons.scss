@@ -1,0 +1,7 @@
+.checkout-button {
+  background-color: $checkout-blue !important;
+
+  &:hover {
+    background-color: darker($checkout-blue, 5%) !important;
+  }
+}

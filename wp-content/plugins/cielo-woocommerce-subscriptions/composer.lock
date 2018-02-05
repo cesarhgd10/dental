@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "86fe3a709e59357b3e730cbeefb925da",
+    "packages": [
+        {
+            "name": "developercielo/api-3.0-php",
+            "version": "dev-feature/update-recurrent-payment",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muvasco/API-3.0-PHP.git",
+                "reference": "1c251edf4d8c35710cebf28bd11d775f71945c47"
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cielo": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Integração com a API 3.0 da Cielo",
+            "homepage": "https://github.com/DeveloperCielo/API-3.0-PHP",
+            "time": "2017-09-01 17:15:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "developercielo/api-3.0-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
